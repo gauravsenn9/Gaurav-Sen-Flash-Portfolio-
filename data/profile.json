@@ -1,0 +1,90 @@
+{
+  "summary": "CSPO-certified technology professional with on-site experience in the USA, combining product thinking, stakeholder discovery and cross-functional delivery across financial services, real estate and hospitality.",
+  "experience": [
+    {
+      "company": "Greystar",
+      "title": "Product/Project Manager — Team Lead",
+      "dates": "September 2025 – June 2026",
+      "location": "Mumbai, India · Global remit across USA and Canada",
+      "bullets": [
+        "Translated internal-user needs into a prioritised backlog, user stories and acceptance criteria for property onboarding, offboarding and marketing launches.",
+        "Partnered on Wrike automation across 10 recurring workflows and 10 reusable templates, standardising assignments, approvals and reporting for 12 team members.",
+        "Helped reduce turnaround from 10 to 4 working days while coordinating 150 projects over 10 months with 95% on-time completion."
+      ]
+    },
+    {
+      "company": "Destar · BNP Paribas CIB & ISPL",
+      "title": "Senior Consultant (Product Delivery Manager)",
+      "dates": "June 2025 – September 2025",
+      "location": "Mumbai, India · APAC",
+      "bullets": [
+        "Translated business needs into requirements and implementation priorities for an APAC Procure-to-Pay rollout spanning 12+ migrated processes.",
+        "Partnered with SMEs, IT and Operations Risk on scope, dependencies, acceptance testing and rollout readiness.",
+        "Defined reporting requirements and built an SLA dashboard that reduced review time by 20%."
+      ]
+    },
+    {
+      "company": "Marriott · Blue Ridge Hotel Partners LLC",
+      "title": "Digital Project Manager — CEO Office",
+      "dates": "July 2024 – February 2025",
+      "location": "Chicago, USA · On-site experience",
+      "bullets": [
+        "Led discovery and requirements for an AI-powered digital media automation initiative, shaping a prioritised backlog and phased delivery plan.",
+        "Defined acceptance criteria across structured inputs, AI-assisted preparation, human review and approval.",
+        "Coordinated implementation and rollout, reducing delivery delays by 25% with a 95% on-time milestone rate."
+      ]
+    },
+    {
+      "company": "Guyana Economic Development Trust",
+      "title": "Project Management Consultant Co-op",
+      "dates": "January 2024 – June 2025",
+      "location": "Boston, USA · Concurrent engagement",
+      "bullets": [
+        "Led market discovery across 23 developing economies and compared four operating models.",
+        "Built a reusable go-to-market framework that improved planning efficiency by 20% and reduced execution costs by 10%.",
+        "Led a six-person cross-functional team, delivering the final proposal 10% under budget."
+      ]
+    },
+    {
+      "company": "Light Matter Media LLP",
+      "title": "Digital Marketing Manager",
+      "dates": "July 2020 – August 2022",
+      "location": "Thane, India · Promoted from Digital Marketing Associate",
+      "bullets": [
+        "Managed Eazol India’s B2B launch and website revamp, contributing to 40% revenue growth from $1.8M to $2.52M.",
+        "Supported onboarding of 4,000+ B2B clients and increased audience engagement 4× through targeted content and marketing automation.",
+        "Progressed from Digital Marketing Associate to Digital Project Manager, coordinating multiple client initiatives."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "name": "M.S. in Project Management",
+      "institution": "Northeastern University, College of Professional Studies, Boston",
+      "dates": "2022–2024"
+    },
+    {
+      "name": "B.A. in Mass Media — Advertising, PR & Applied Communication",
+      "institution": "University of Mumbai",
+      "dates": "2018–2021"
+    }
+  ],
+  "certifications": [
+    "AI-First Product Management · Airtribe · September 2026",
+    "CSM & CSPO · Scrum Alliance · January 2024",
+    "Business Analysis · Microsoft · December 2023",
+    "Post Graduate Diploma in Digital Marketing, UI/UX & 2D Animations · I-Tech Institute · August 2022"
+  ],
+  "skills": [
+    "Product discovery",
+    "User research & JTBD",
+    "Roadmapping & prioritisation",
+    "PRDs & acceptance criteria",
+    "Agile & Scrum",
+    "Funnel analysis & AARRR",
+    "SQL, GA4 & Power BI",
+    "LLM workflows & n8n",
+    "Jira, Confluence & Wrike",
+    "Figma & API integrations"
+  ]
+}

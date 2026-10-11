@@ -1,0 +1,1127 @@
+[
+  {
+    "name": "Fireflies CommitLoop",
+    "slug": "fireflies-commitloop",
+    "category": "AI & Automation",
+    "status": "Independent capstone · prototype",
+    "title": "From meeting notes to commitments that close.",
+    "summary": "Designing a trusted follow-through layer for Fireflies, built around confirmed ownership and timely updates.",
+    "role": "Research, problem framing, prioritization and prototype design",
+    "question": "What happens to a promise after the meeting ends?",
+    "decision": "Automate the context. Let people confirm the accountability.",
+    "sections": [
+      {
+        "heading": "The summary is finished. The work isn’t.",
+        "body": "An action item can be captured correctly and still go nowhere. Ownership changes, priorities shift, and the meeting record stops reflecting reality. I explored this gap between recording a commitment and reaching an explicit outcome."
+      },
+      {
+        "heading": "What I worked on",
+        "body": "I brought the research, problem framing, solution prioritization, prototype, adoption strategy and measurement plan into one capstone. The product proposal centres on two capabilities: Commitment Checkpoint and Commitment Pulse."
+      },
+      {
+        "heading": "What changed my understanding",
+        "body": "The research combined 23 survey responses, six depth interviews and two WhatsApp follow-ups. It pointed beyond forgetting: unclear ownership, competing priorities and ambiguous definitions of done also mattered. This is directional research, not a representative estimate of the entire market."
+      },
+      {
+        "heading": "Two focused bets",
+        "body": "Checkpoint lets a person accept, correct, reassign or decline AI-suggested ownership. Pulse resurfaces the commitment before the next relevant moment, so its state can be updated. I kept the solution attached to existing meeting behaviour instead of adding another daily task inbox."
+      },
+      {
+        "heading": "A commitment has a lifecycle",
+        "body": "The proposed flow moves from capture to human confirmation, then contextual follow-up and an explicit outcome: done, reassigned or deliberately dropped. The prototype makes those decisions visible and preserves the meeting context behind them."
+      },
+      {
+        "heading": "Trust before automation breadth",
+        "body": "Wrong ownership would undermine the entire experience. The proposal preserves human confirmation, limits notification frequency and keeps analytics at the commitment level. Sprint planning, workload scoring and autonomous closure stay outside the scope."
+      },
+      {
+        "heading": "How I would know it works",
+        "body": "The capstone proposes a six-month target of increasing 14-day honest commitment resolution from a case-study baseline of 28% to 45%. This is a target, not a delivered uplift. A pilot would compare the existing action-item flow with Checkpoint plus Pulse, while tracking false ownership, dismissals and notification fatigue."
+      },
+      {
+        "heading": "The next proof is behavioural",
+        "body": "A working interaction is only the first step. The next test is whether recurring customer-facing teams keep using the loop and close commitments more reliably without performing superficial status updates."
+      }
+    ],
+    "resources": [
+      {
+        "primary": true,
+        "label": "Fireflies_CommitLoop_Step9_Final_Leadership_Deck.pdf",
+        "type": "PDF",
+        "url": "https://drive.google.com/file/d/1xTBsAtgQf7W3qCdkfSS3zRDCWVx4D3ks/view?usp=drivesdk"
+      },
+      {
+        "primary": false,
+        "label": "Fireflies_Step8_Vibe_Coding_Automation.pdf",
+        "type": "PDF",
+        "url": "https://drive.google.com/file/d/1uEKP1KZdyXnXMOgVhERmkXLDDOvwyHHd/view?usp=drivesdk"
+      },
+      {
+        "primary": false,
+        "label": "Fireflies_Step6_Metrics_Success_Measurement.pdf",
+        "type": "PDF",
+        "url": "https://drive.google.com/file/d/1yz5ej4OTdtDlKI8Gu1D7XP2NMVLW9d0-/view?usp=drivesdk"
+      },
+      {
+        "primary": false,
+        "label": "Fireflies_Step5_Adoption_Growth_Business_Impact.pdf",
+        "type": "PDF",
+        "url": "https://drive.google.com/file/d/1Avhla9pXcIO-w2dORNY1spykc5Igz_fg/view?usp=drivesdk"
+      },
+      {
+        "primary": false,
+        "label": "Fireflies_Step4_CommitLoop_Revised.pdf",
+        "type": "PDF",
+        "url": "https://drive.google.com/file/d/1F9eRjlZu7WZWSu3ITxdvAPQR2d79-mtV/view?usp=drivesdk"
+      },
+      {
+        "primary": false,
+        "label": "Fireflies_Step3_Solution_Ideation_Prioritization.pdf",
+        "type": "PDF",
+        "url": "https://drive.google.com/file/d/1uZNkqnQ4RSYVl8k-v6auxW9TWoaxTo_b/view?usp=drivesdk"
+      },
+      {
+        "primary": false,
+        "label": "Fireflies_Step2_Frame_the_Problem_Submission_UPDATED.pdf",
+        "type": "PDF",
+        "url": "https://drive.google.com/file/d/1n3V3d31IXdIyjDwHbSLTlgjtvuuOPKy_/view?usp=drivesdk"
+      },
+      {
+        "primary": false,
+        "label": "Fireflies_Step1_Deep_Research_Submission_2026-09-01_UPDATED.pdf",
+        "type": "PDF",
+        "url": "https://drive.google.com/file/d/1zrbyzmFc-AkBmGsXHISSLd7jZ2_iF2gn/view?usp=drivesdk"
+      },
+      {
+        "primary": false,
+        "label": "Fireflies_Step7_Risks_Tradeoffs_Constraints.pdf",
+        "type": "PDF",
+        "url": "https://drive.google.com/file/d/1PN1KHdWusOFPcDamg5cvP4j-D32Tr62m/view?usp=drivesdk"
+      },
+      {
+        "primary": false,
+        "label": "index.html",
+        "type": "Source file",
+        "url": "https://drive.google.com/file/d/1tiaFJPOkHhHlNDGWiGpxF2EBefK-yvrm/view?usp=drivesdk"
+      },
+      {
+        "primary": true,
+        "label": "CommitLoop working prototype",
+        "type": "Prototype",
+        "url": "https://fireflies-commit-loop.replit.app/"
+      },
+      {
+        "primary": true,
+        "label": "CommitLoop HTML prototype",
+        "type": "Prototype",
+        "url": "https://fireflies-commitloop.vercel.app/"
+      }
+    ]
+  },
+  {
+    "name": "WorkRadar",
+    "slug": "workradar",
+    "category": "AI & Automation",
+    "status": "Portfolio-stage concept · prototype",
+    "title": "Less status hunting. Earlier intervention.",
+    "summary": "An AI daily brief that helps delivery managers see where their attention is needed—and why.",
+    "role": "Product requirements, workflow and interface design",
+    "question": "Which blocker needs a manager’s attention today?",
+    "decision": "Rank by the need for intervention, with evidence behind every claim.",
+    "sections": [
+      {
+        "heading": "The cost is late discovery",
+        "body": "Managers reconstruct team status by moving between chat, issues, code reviews and email. The deeper problem is that blockers may remain invisible until a standup or one-to-one, after time has already been lost."
+      },
+      {
+        "heading": "What I worked on",
+        "body": "I defined the problem, manager and team-member personas, user stories, priorities, MVP scope and system components. The supporting work includes a PRD, UI design, workflow diagrams and a demonstration video."
+      },
+      {
+        "heading": "Make the assumptions visible",
+        "body": "The PRD separates contextual research from unvalidated assumptions. Whether an LLM can identify real blockers accurately, whether managers act on the brief, and whether team members trust the system all require real-team validation."
+      },
+      {
+        "heading": "An intervention brief, not an activity feed",
+        "body": "The feed should rank work by its need for attention and explain that ranking. A busy thread is not automatically a blocker. Every claim should link back to its evidence so the manager can understand and challenge it."
+      },
+      {
+        "heading": "One brief, then an action",
+        "body": "The design groups information into blocked work, items needing attention, top work and yesterday’s changes. Managers can inspect the evidence and assign, complete or snooze an item. Team members have a transparency view and a way to dispute an incorrect inference."
+      },
+      {
+        "heading": "Visibility without surveillance",
+        "body": "The MVP uses mock data; real Slack, issue-tracker and GitHub ingestion are outside its implemented scope. Employee performance analytics are excluded. Transparency and dispute handling are part of the product design rather than a later policy layer."
+      },
+      {
+        "heading": "Measure response, not reading",
+        "body": "The proposed north star is median time to blocker acknowledgement, with a target below four hours. Dismissal rate is a guardrail. These are PRD targets and do not describe measured production performance."
+      },
+      {
+        "heading": "Validate the daily decision loop",
+        "body": "The concept still needs problem and solution validation. Compare time spent gathering updates, how early blockers are identified, and whether managers find the brief useful enough to act on repeatedly. Establish baselines and test trust in source-backed insights. Do not treat prototype functionality as production adoption or proven commercial impact."
+      }
+    ],
+    "resources": [
+      {
+        "primary": false,
+        "label": "Work-Radar-Aug-8-21-06-19.mp4",
+        "type": "Video",
+        "url": "https://drive.google.com/file/d/16mmMInH8_aWtF5j9xozapwnyxGBK0Fet/view?usp=drivesdk"
+      },
+      {
+        "primary": false,
+        "label": "WorkRadar_UI_Design_v2.pdf",
+        "type": "PDF",
+        "url": "https://drive.google.com/file/d/1Nxs1tRxdWxZAX0P4UJXfxfSraQm29EHJ/view?usp=drivesdk"
+      },
+      {
+        "primary": false,
+        "label": "WorkRadar Brief Interventions in Hours (1).pdf",
+        "type": "PDF",
+        "url": "https://drive.google.com/file/d/1xE5BgzMnNv5JrNktVDXXPaj4HOUAfQjY/view?usp=drivesdk"
+      },
+      {
+        "primary": false,
+        "label": "WorkRadar_AI_Workflow_v3.pdf",
+        "type": "PDF",
+        "url": "https://drive.google.com/file/d/1wxhHJM0mFjhjSVk-Qaoi_FXNEbWVbFj3/view?usp=drivesdk"
+      },
+      {
+        "primary": false,
+        "label": "WorkRadar-08-09-2026_07_06_PM.png",
+        "type": "Image",
+        "url": "https://drive.google.com/file/d/1X-dFRWbZKtGDDZfetGegLKW-cYLdjW_F/view?usp=drivesdk"
+      },
+      {
+        "primary": true,
+        "label": "WorkRadar_PRD_v2.pdf",
+        "type": "PDF",
+        "url": "https://drive.google.com/file/d/1vIwpKRcehCARBI0vRu1iy6YFkv23K-_W/view?usp=drivesdk"
+      },
+      {
+        "primary": false,
+        "label": "workradar_app_flow.png",
+        "type": "Image",
+        "url": "https://drive.google.com/file/d/1kSYmBr0th02Px1yiVAwWdwaEl7atjuW9/view?usp=drivesdk"
+      },
+      {
+        "primary": false,
+        "label": "WorkRadar_Flow_Diagram.svg",
+        "type": "Image",
+        "url": "https://drive.google.com/file/d/1hed2zEbyLX70fHMjpgT3X-r8QDogSmU-/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "name": "SAHI",
+    "slug": "sahi",
+    "category": "AI & Automation",
+    "status": "Course project · interactive prototype",
+    "title": "Make the assumptions behind a number visible.",
+    "summary": "An investment-projection concept that reveals the gap between a headline return and what an investor may actually experience.",
+    "role": "Product specification and prototype development",
+    "question": "What does an investment projection leave out?",
+    "decision": "Show each assumption and deduction, instead of hiding them in one confident number.",
+    "sections": [
+      {
+        "heading": "A precise number can hide a weak assumption",
+        "body": "Investment calculators can make an uncertain future look straightforward. SAHI explores how to show contributions, historical scenarios and deductions clearly enough for a user to question the headline projection."
+      },
+      {
+        "heading": "What I worked on",
+        "body": "The project includes an updated PRD, interactive HTML prototype, walkthrough deck and demo video. The newer specification documents changes made during prototyping, including contribution previews and a plain-language companion."
+      },
+      {
+        "heading": "A concept with explicit boundaries",
+        "body": "The prototype illustrates the experience using scenario data. It is not a production investment service: it has no accounts, production backend or licensed real-time market feed. The case study focuses on product design and disclosure, not investment recommendations."
+      },
+      {
+        "heading": "Explain the arithmetic in steps",
+        "body": "The journey first makes the contribution amount visible. It then explores outcomes and the effect of costs, behaviour, tax and inflation. Users can inspect the layers instead of accepting one unexplained total."
+      },
+      {
+        "heading": "A six-step guided experience",
+        "body": "The flow covers monthly contributions and step-up, scenario selection, invested amount, a reality ladder, category comparison and a downloadable summary. The companion is designed around explaining the user’s computed numbers rather than recommending securities."
+      },
+      {
+        "heading": "An honest prototype has limits",
+        "body": "More explanation can increase friction. The design uses progressive disclosure to preserve clarity. Historical scenarios do not predict future returns, and the prototype’s financial inputs would need specialist review before any production use."
+      },
+      {
+        "heading": "Understanding before conversion",
+        "body": "The specification proposes tracking whether people revise overly optimistic assumptions after seeing the evidence. That signal needs to be read alongside comprehension: a lower assumption alone does not prove the user understands the projection."
+      },
+      {
+        "heading": "Test what people take away",
+        "body": "The next step is usability research on interpretation: can a person explain which inputs changed the result and what remains uncertain? No production adoption or investment outcome is claimed."
+      }
+    ],
+    "resources": [
+      {
+        "primary": true,
+        "label": "PRD-sahi-v0.2-live-prototype.pdf",
+        "type": "PDF",
+        "url": "https://drive.google.com/file/d/1OLxRh1LCkKTU9tDvv2f6w6Xo1Ue_BbyG/view?usp=drivesdk"
+      },
+      {
+        "primary": false,
+        "label": "Sahi_Product_Walkthrough_v2.pptx",
+        "type": "Slides",
+        "url": "https://docs.google.com/presentation/d/1DjYCZymdeMvlhJgUx9vGAac9OSmYd_Va/edit?usp=drivesdk&ouid=109119666522270312824&rtpof=true&sd=true"
+      },
+      {
+        "primary": false,
+        "label": "Sahi_Product_Walkthrough_v2.pdf",
+        "type": "PDF",
+        "url": "https://drive.google.com/file/d/1E8iVd_ufhIOfn_akv0fvWW4WNNycFoBx/view?usp=drivesdk"
+      },
+      {
+        "primary": false,
+        "label": "Sahi App Video .mp4",
+        "type": "Video",
+        "url": "https://drive.google.com/file/d/1FHNECdGuvcS_NI8_8akQO-WFYuMBk61z/view?usp=drivesdk"
+      },
+      {
+        "primary": false,
+        "label": "Sahi-Interactive-Prototype.html",
+        "type": "Source file",
+        "url": "https://drive.google.com/file/d/1rCR6NEn2Vn8H-HXf9ppnkAwBOjSQUWKw/view?usp=drivesdk"
+      },
+      {
+        "primary": false,
+        "label": "frameworks.md",
+        "type": "Source file",
+        "url": "https://drive.google.com/file/d/1-OaaJxhQTRct2aM_zxUJsIrxn73dQFyn/view?usp=drivesdk"
+      },
+      {
+        "primary": false,
+        "label": "prd-architect.skill",
+        "type": "Source file",
+        "url": "https://drive.google.com/file/d/14TuOKEcNx8-rmmNGRmFCURM5VCsRjZBP/view?usp=drivesdk"
+      },
+      {
+        "primary": false,
+        "label": "quality.md",
+        "type": "Source file",
+        "url": "https://drive.google.com/file/d/1gin7tAAjv-EZVNY2ALzZlwt60McRJVJK/view?usp=drivesdk"
+      },
+      {
+        "primary": false,
+        "label": "sections.md",
+        "type": "Source file",
+        "url": "https://drive.google.com/file/d/1nvR7KfR88GRLud9JZMHlvCKYZ1QYSq95/view?usp=drivesdk"
+      },
+      {
+        "primary": false,
+        "label": "SKILL.md",
+        "type": "Source file",
+        "url": "https://drive.google.com/file/d/1Eh7pXvq9wImvR8V3JlvE3FJRS40aess2/view?usp=drivesdk"
+      },
+      {
+        "primary": true,
+        "label": "Sahi interactive prototype",
+        "type": "Prototype",
+        "url": "https://sahi-investor.replit.app/"
+      }
+    ]
+  },
+  {
+    "name": "Zepto",
+    "slug": "zepto-aov",
+    "category": "Growth & Retention",
+    "status": "Independent course case study",
+    "title": "Grow the basket by completing the mission.",
+    "summary": "A growth proposal that connects relevant basket additions to the job a shopper came to get done.",
+    "role": "Secondary research, segmentation and growth prioritization",
+    "question": "What did the shopper mean to complete—not just buy?",
+    "decision": "Make basket growth a result of relevance, rather than more persuasion.",
+    "sections": [
+      {
+        "heading": "Speed does not guarantee a complete basket",
+        "body": "The brief asks how to increase average order value. I reframed it around shopping missions: a person may come for breakfast items or household replenishment, but the interface primarily helps them retrieve individual products."
+      },
+      {
+        "heading": "What I worked on",
+        "body": "I used secondary research and competitive analysis to define directional user segments, identify likely blockers, compare three interventions and propose an experiment and rollout sequence."
+      },
+      {
+        "heading": "What the analysis can and cannot say",
+        "body": "This was a one-day secondary-research exercise without primary interviews or access to Zepto’s internal analytics. Segmentation, RICE inputs and commercial estimates are assumptions to validate, not proprietary company findings."
+      },
+      {
+        "heading": "Start with Smart Basket Completion",
+        "body": "The lead proposal surfaces contextual add-ons when an item is added. Mission-Based Basket Milestones tests the framing of basket progress. Targeted Bundle Incentives comes later, once the supporting basket relationships are better understood."
+      },
+      {
+        "heading": "Three interventions, distinct mechanisms",
+        "body": "Smart Basket Completion reduces discovery friction. Basket Milestones tests whether the delivery threshold anchors people too early. Targeted Bundles links incentives to incremental, relevant additions rather than blanket discounts."
+      },
+      {
+        "heading": "A bigger basket must still be a better order",
+        "body": "Recommendations can delay checkout or add noise. Discounts can increase order value while weakening contribution margin. The proposal therefore pairs growth metrics with conversion, time, dismissal and unit-economics guardrails."
+      },
+      {
+        "heading": "Compare with a control",
+        "body": "Track incremental basket value, items per order and recommendation attach rate, alongside contribution per order and checkout conversion. Any uplift in the source roadmap is a proposed expectation, not a result achieved at Zepto."
+      },
+      {
+        "heading": "Validate the mission hypothesis first",
+        "body": "Before a larger build, I would inspect actual basket distributions and behaviour around delivery thresholds, then test a small recommendation intervention with a matched control."
+      }
+    ],
+    "resources": [
+      {
+        "primary": false,
+        "label": "Zepto AOV Case Study - Deck.pptx",
+        "type": "Slides",
+        "url": "https://docs.google.com/presentation/d/1Hk-3SqLGYmPkDvN6QB3U2MP2iN6-OxPj/edit?usp=drivesdk&ouid=109119666522270312824&rtpof=true&sd=true"
+      },
+      {
+        "primary": true,
+        "label": "Zepto AOV Case Study - Report.pdf",
+        "type": "PDF",
+        "url": "https://drive.google.com/file/d/1fMJU98QfjWvB-Yl7-Cf997oFhBTELdVG/view?usp=drivesdk"
+      },
+      {
+        "primary": false,
+        "label": "Increasing Zepto Average Order Value Through Mission Completion.mp4",
+        "type": "Video",
+        "url": "https://drive.google.com/file/d/1BuL8cEPDu720k7XKtIr7SQQJTLSL3f1j/view?usp=drivesdk"
+      },
+      {
+        "primary": false,
+        "label": "Zepto AOV Case Study - Deck.pdf",
+        "type": "PDF",
+        "url": "https://drive.google.com/file/d/1vA1NO5BInlas-35dtlkg5axq67Hyikyl/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "name": "Uber · Smarter Pickups",
+    "slug": "uber-pickups",
+    "category": "Research & UX",
+    "status": "Independent discovery case study",
+    "title": "One meeting point. Two people who agree on it.",
+    "summary": "Research into the last-100-metre coordination gap between riders and drivers at complex venues.",
+    "role": "Market research, interviews, synthesis and concept design",
+    "question": "Is this a navigation problem—or a shared-understanding problem?",
+    "decision": "Help the rider and driver converge on one named point.",
+    "sections": [
+      {
+        "heading": "The pin isn’t the whole pickup",
+        "body": "At a mall or a complex venue, the rider and driver can both have coordinates and still mean different entrances. A phone call becomes the workaround for aligning their understanding."
+      },
+      {
+        "heading": "What I worked on",
+        "body": "I combined market research, four in-depth interviews and seven survey responses, then synthesised the findings into product directions and concept flows for both sides of the pickup."
+      },
+      {
+        "heading": "Small-sample research, useful direction",
+        "body": "The research documents differing pickup points and the use of phone calls and familiar landmarks. These findings guide discovery; eleven participants do not establish market-wide prevalence."
+      },
+      {
+        "heading": "Separate coordination from reliability",
+        "body": "Pickup clarity should be assessed through calls per pickup and arrival-to-boarding time. I avoided treating every driver cancellation as a location problem because the research also surfaced payment and destination concerns."
+      },
+      {
+        "heading": "MeetPoint, GateSelect and MySpot",
+        "body": "MeetPoint gives both people a shared meeting point. GateSelect replaces an ambiguous pin with named entrances. MySpot remembers successful pickup locations, formalising the habits experienced riders have already developed."
+      },
+      {
+        "heading": "Venue knowledge has a maintenance cost",
+        "body": "Named gates only help if they are accurate and usable by drivers. The proposal needs venue validation, driver feedback and a way to handle places where stopping is not possible."
+      },
+      {
+        "heading": "Test convergence at actual venues",
+        "body": "The proposed sequence includes a venue audit, a concierge test at malls and prototype testing with riders. Measure calls, time to board and walking distance; no cancellation reduction or revenue lift is claimed."
+      },
+      {
+        "heading": "Build on the workaround",
+        "body": "The most useful direction came from what people already did: choosing a landmark, remembering a gate and calling to confirm. The product can make that knowledge shared rather than rediscovered."
+      }
+    ],
+    "resources": [
+      {
+        "primary": false,
+        "label": "Smarter Uber Pickups in Busy Cities.mp4",
+        "type": "Video",
+        "url": "https://drive.google.com/file/d/179US1qb3FCqLZVaG9O_HS7hH_df4Bm6j/view?usp=drivesdk"
+      },
+      {
+        "primary": false,
+        "label": "Uber_Pickup_Market_Research_Step1.pdf",
+        "type": "PDF",
+        "url": "https://drive.google.com/file/d/1rtGL8L0CfTWJQCjAzFwaB14TU6ekudx9/view?usp=drivesdk"
+      },
+      {
+        "primary": false,
+        "label": "Uber_Pickup_User Research_Step3_Final.pdf",
+        "type": "PDF",
+        "url": "https://drive.google.com/file/d/1p7xlNISfQv_Z0oflUgoHsmIf_EZN27lD/view?usp=drivesdk"
+      },
+      {
+        "primary": true,
+        "label": "Uber_Smarter_Pickups.pdf",
+        "type": "PDF",
+        "url": "https://drive.google.com/file/d/1jl8-YMRB1c_a8jSHvWcQQKX_BOljX9pm/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "name": "Loop Work",
+    "slug": "loop-work",
+    "category": "Product Strategy",
+    "status": "Course strategy case study",
+    "title": "Make day-one readiness someone’s clear responsibility.",
+    "summary": "A strategy for an onboarding and IT-access platform serving companies in the UAE and wider Gulf.",
+    "role": "Customer targeting, positioning and product strategy",
+    "question": "Who holds the complete picture of a new hire’s readiness?",
+    "decision": "Coordinate across existing systems instead of replacing every system.",
+    "sections": [
+      {
+        "heading": "The handoffs hold the risk",
+        "body": "A new employee needs documents, approvals, equipment and system access. When each part lives in a different spreadsheet, inbox or ticket queue, no single team has a reliable view of readiness."
+      },
+      {
+        "heading": "What I worked on",
+        "body": "I developed a strategy covering the initial customer group, problem focus, positioning, expansion logic, success measures and a three-year roadmap. The work also makes leadership questions and unresolved assumptions explicit."
+      },
+      {
+        "heading": "A defined starting customer",
+        "body": "The proposal focuses on UAE companies with 200–1,500 employees and complex onboarding across entities. This is a strategic target segment, not a claim about an existing customer base or proven product-market fit."
+      },
+      {
+        "heading": "Own the live status of each hire",
+        "body": "Loop Work is positioned as a coordination layer above HR, identity and operational systems. Its initial job is to help a company get a person ready to work on day one."
+      },
+      {
+        "heading": "Start narrow, expand with the workflow",
+        "body": "The roadmap begins with UAE onboarding, then considers the wider employee lifecycle and Saudi expansion, followed by predictive delay insights once meaningful operating data exists."
+      },
+      {
+        "heading": "Integration depth before broad reach",
+        "body": "Regional specificity may create value, but integrations and policy dependencies take effort to maintain. The strategy should be revisited when engineering capacity, buyer priorities and integration feasibility are known."
+      },
+      {
+        "heading": "Track readiness and repeat value",
+        "body": "The product should be assessed through the onboarding outcome and sustained customer use, rather than how many checklists are created. The strategy document contains the detailed success framework; it does not report live customer results."
+      },
+      {
+        "heading": "Strategy depends on what must be true",
+        "body": "A narrow initial market is only useful if the proposed coordination gap matters enough for a buyer to pay. Buyer discovery and integration validation should precede a broad platform commitment."
+      }
+    ],
+    "resources": [
+      {
+        "primary": false,
+        "label": "Loopwork Gulf Onboarding Strategy 2026 to 2029.mp4",
+        "type": "Video",
+        "url": "https://drive.google.com/file/d/1C743ZW-gItTzkv2_KkzNliz7SBeeO5Oj/view?usp=drivesdk"
+      },
+      {
+        "primary": true,
+        "label": "Loop_Work_Product_Strategy_Full.pdf",
+        "type": "PDF",
+        "url": "https://drive.google.com/file/d/14TYB6-p5gxZLk7VmPcoNz2uQbOvGhUYh/view?usp=drivesdk"
+      },
+      {
+        "primary": false,
+        "label": "Loop_Work_Product_Strategy_Deck_Short.pdf",
+        "type": "PDF",
+        "url": "https://drive.google.com/file/d/1nxtBeAx8iC15abgb6B8RI1RctMyi5Fry/view?usp=drivesdk"
+      },
+      {
+        "primary": false,
+        "label": "Loop_Work_Product_Strategy_Deck_Short.pptx",
+        "type": "Slides",
+        "url": "https://docs.google.com/presentation/d/1d-MnWTVWWA913BwTmeHr_6kDzVVeSFC_/edit?usp=drivesdk&ouid=109119666522270312824&rtpof=true&sd=true"
+      }
+    ]
+  },
+  {
+    "name": "Competitor News Digest",
+    "slug": "competitor-news-digest",
+    "category": "AI & Automation",
+    "status": "Built automation · course project",
+    "title": "Turn a morning news search into a useful brief.",
+    "summary": "An n8n workflow that filters competitor news, summarises relevant stories and delivers a structured digest.",
+    "role": "Workflow design, automation and demonstration",
+    "question": "How can competitive research remain consistent when the calendar fills up?",
+    "decision": "Automate collection; make relevance and traceability explicit.",
+    "sections": [
+      {
+        "heading": "The information is available. Attention isn’t.",
+        "body": "Checking several competitors every morning is repetitive and easy to postpone. The challenge was to turn public news into a consistent brief with a useful signal-to-noise ratio."
+      },
+      {
+        "heading": "What I built",
+        "body": "I designed an n8n workflow that reads a competitor list, collects articles, cleans and deduplicates the results, uses an LLM for summaries and relevance scoring, then delivers the output to Slack and a Google Sheets archive."
+      },
+      {
+        "heading": "A demonstrated workflow",
+        "body": "The submission includes a workflow diagram, report, exported configuration and demonstration video. A typical run documented in the report retrieved 24 raw articles and produced roughly 13 distinct stories in under a minute. That is a reported example run, not a long-term service guarantee."
+      },
+      {
+        "heading": "Filter before delivering",
+        "body": "The workflow asks the model for a short summary, category and relevance score. A threshold removes low-value items before the remaining stories are grouped and ordered."
+      },
+      {
+        "heading": "From schedule to archive",
+        "body": "The proposed daily schedule starts with a maintained competitor list. Delivery branches into a readable Slack digest and a structured archive so stories can be revisited instead of disappearing in a feed."
+      },
+      {
+        "heading": "A model score is a judgement, not a fact",
+        "body": "Deduplication and relevance scoring can remove useful information or keep weak matches. The workflow needs human spot checks, clear source links and attention to upstream API failures."
+      },
+      {
+        "heading": "Judge usefulness as well as runtime",
+        "body": "The demonstration establishes that the workflow can run. A production evaluation would also examine summary fidelity, missed important stories, duplicates and whether the brief changes a PM’s decisions."
+      },
+      {
+        "heading": "Automation still needs an editorial standard",
+        "body": "The useful output is not the number of articles collected. It is whether a person can quickly identify which developments deserve attention and trace each summary back to its source."
+      }
+    ],
+    "resources": [
+      {
+        "primary": false,
+        "label": "Daily AI Competitor News Digest Workflow.mp4",
+        "type": "Video",
+        "url": "https://drive.google.com/file/d/1vTF-430a43aN2J9HTnCrm_g95V_AsUgG/view?usp=drivesdk"
+      },
+      {
+        "primary": true,
+        "label": "Competitor_News_Digest_Submission.pdf",
+        "type": "PDF",
+        "url": "https://drive.google.com/file/d/161u-HiSGvqCJMOq8kxebW_-x6aq9XUTI/view?usp=drivesdk"
+      },
+      {
+        "primary": false,
+        "label": "Canvas Image of N8n.png",
+        "type": "Image",
+        "url": "https://drive.google.com/file/d/1FxkRrkB6aLNt9OZ0G4QzeMsOa9J734Op/view?usp=drivesdk"
+      },
+      {
+        "primary": false,
+        "label": "Daily Competitor News Digest - Indian Ride Hailing.json",
+        "type": "Source file",
+        "url": "https://drive.google.com/file/d/1RKO_y5NKvb83qQHWJlFtwOb0zYbBVExG/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "name": "Personalized Learning",
+    "slug": "personalized-learning",
+    "category": "Product Strategy",
+    "status": "Course product-design case study",
+    "title": "Recommend the course a learner can actually finish.",
+    "summary": "A recommendation-system proposal that prioritises readiness and completion over clicks alone.",
+    "role": "Problem framing, requirements and system trade-offs",
+    "question": "Does a more engaging feed create more meaningful learning?",
+    "decision": "Rank for completion, with engagement as a guardrail.",
+    "sections": [
+      {
+        "heading": "Discovery and completion are different problems",
+        "body": "The brief asks for higher engagement, completion and satisfaction. I examined how those goals might conflict: more attractive recommendations could encourage more enrolments without helping people finish."
+      },
+      {
+        "heading": "What I worked on",
+        "body": "I reframed the brief, identified clarifying questions, defined user stories and requirements, and proposed a phased recommendation architecture with explicit trade-offs and a measurement plan."
+      },
+      {
+        "heading": "Benchmarks are not internal baselines",
+        "body": "The analysis uses external research and benchmarked assumptions. It distinguishes learners’ intentions and readiness from simple browsing activity. The source targets should be treated as planning inputs rather than observed platform results."
+      },
+      {
+        "heading": "Match goal, level and prerequisites",
+        "body": "The proposal uses career goals, skill level and prerequisite readiness to support a completion-oriented ranking objective. It makes recommendation explanations visible to the learner."
+      },
+      {
+        "heading": "A phased hybrid system",
+        "body": "Start with a content-based approach that works for new learners and courses. Add richer retrieval and ranking when interaction data supports them. A re-ranking layer handles diversity, fatigue, exploration and product constraints."
+      },
+      {
+        "heading": "Short-term clicks can conflict with durable value",
+        "body": "The design accepts that click-through could fall while course fit improves. It also addresses cold start, privacy choices and feedback loops that otherwise make already-popular courses even more dominant."
+      },
+      {
+        "heading": "Look beyond the recommendation carousel",
+        "body": "The proposed framework measures completion and platform-level engagement, with safeguards against boosting completion merely by promoting shorter or easier courses. Experiments need enough time to distinguish novelty from learning value."
+      },
+      {
+        "heading": "A recommender cannot solve every dropout cause",
+        "body": "Course quality, pricing, accountability and personal circumstances remain outside a ranking system’s scope. Defining those boundaries makes the product claim more useful and testable."
+      }
+    ],
+    "resources": [
+      {
+        "primary": false,
+        "label": "Personalized-Learning-Recommendation-System.pptx",
+        "type": "Slides",
+        "url": "https://docs.google.com/presentation/d/1GfbPjBSsXiGy0_1PcJDPvNQzTjjy-KYm/edit?usp=drivesdk&ouid=109119666522270312824&rtpof=true&sd=true"
+      },
+      {
+        "primary": true,
+        "label": "02-FINAL-Personalized-Learning-Recommendation-System.md.pdf",
+        "type": "PDF",
+        "url": "https://drive.google.com/file/d/1xQyV5OE7EucWgLOeYKSq20Rr6_XDTF64/view?usp=drivesdk"
+      },
+      {
+        "primary": false,
+        "label": "01-ROUGH-WORK-research-log.md.pdf",
+        "type": "PDF",
+        "url": "https://drive.google.com/file/d/1d2Fm5SsvVh54hdMfMYCL9wFzFRiTp9Br/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "name": "Zomato",
+    "slug": "zomato-retention",
+    "category": "Growth & Retention",
+    "status": "Independent course case study",
+    "title": "Find the reason a diner does—or doesn’t—come back.",
+    "summary": "A discovery-to-delivery analysis connecting funnel friction to different ordering needs.",
+    "role": "Journey analysis, cohort framing and metrics",
+    "question": "Which part of the ordering journey makes repeat use less likely?",
+    "decision": "Connect funnel stages to the customer’s occasion and constraints.",
+    "sections": [
+      {
+        "heading": "One ordering funnel, different jobs",
+        "body": "A discovery, order and delivery journey can look straightforward in aggregate while hiding very different needs. Choice overload and context-free recommendations may matter differently to someone with a short break and someone coordinating a group."
+      },
+      {
+        "heading": "What I worked on",
+        "body": "I mapped the funnel, reviewed the live experience, explored customer needs using jobs-to-be-done and developed a retention-oriented measurement framework."
+      },
+      {
+        "heading": "Keep the numbers in context",
+        "body": "The presentation explicitly labels aggregate funnel numbers as illustrative estimates. They help frame an exercise; they are not internal Zomato analytics or measured conversion results."
+      },
+      {
+        "heading": "Diagnose friction before adding acquisition",
+        "body": "The case prioritises understanding why discovery and ordering fail to match a user’s situation. A retention solution needs to solve a recurring need rather than simply add another promotion."
+      },
+      {
+        "heading": "Reduce decision effort in context",
+        "body": "The proposal explores a more relevant restaurant shortlist and a cohort-based view of the ordering experience. It connects proposed improvements to the stage and job they are intended to support."
+      },
+      {
+        "heading": "A shortlist must earn trust",
+        "body": "Reducing choices can simplify a decision, but poor relevance can hide what someone wants. Any recommendation approach should retain browsing freedom and make it easy to change direction."
+      },
+      {
+        "heading": "Pair the funnel with repeat behaviour",
+        "body": "Measure progression through ordering alongside cohort retention and repeat use. Proposed metrics and interventions remain a case-study design, not evidence of a shipped Zomato change."
+      },
+      {
+        "heading": "A conversion loss needs an explanation",
+        "body": "The biggest drop-off on a chart is a starting point for discovery. The next step is to validate the cause with actual behaviour and user evidence before choosing the intervention."
+      }
+    ],
+    "resources": [
+      {
+        "primary": false,
+        "label": "Zomato Delivery Funnel Optimization for Retention.mp4",
+        "type": "Video",
+        "url": "https://drive.google.com/file/d/19qk3ZNEALzSfnC6tSfiYvJNbDb1vSogY/view?usp=drivesdk"
+      },
+      {
+        "primary": true,
+        "label": "Zomato_Case_Study_Presentation.pdf",
+        "type": "PDF",
+        "url": "https://drive.google.com/file/d/1BH3mQirGiVB0bWR9MchKb6oxEhutoNq7/view?usp=drivesdk"
+      },
+      {
+        "primary": false,
+        "label": "Zomato_Funnel_Cohort_Metrics_Analysis.pdf",
+        "type": "PDF",
+        "url": "https://drive.google.com/file/d/1lIvIgnnAdEZNQeGSiV_t4Wz_TwBFo4i7/view?usp=drivesdk"
+      },
+      {
+        "primary": false,
+        "label": "Zomato_Case_Study_Presentation.pptx",
+        "type": "Slides",
+        "url": "https://docs.google.com/presentation/d/1a08Kc8dfoi5qVoDArSuWDdY9nl9A6dU1/edit?usp=drivesdk&ouid=109119666522270312824&rtpof=true&sd=true"
+      }
+    ]
+  },
+  {
+    "name": "Talabat",
+    "slug": "talabat-ux",
+    "category": "Research & UX",
+    "status": "Independent UX case study",
+    "title": "Keep the ordering flow moving.",
+    "summary": "A first-hand evaluation of the UAE ordering experience, from browsing to checkout.",
+    "role": "Flow evaluation, screenshots and redesign recommendations",
+    "question": "Where does the experience interrupt a simple food order?",
+    "decision": "Fix the specific interruption at the moment it occurs.",
+    "sections": [
+      {
+        "heading": "Small interruptions accumulate",
+        "body": "Promotions, address entry, location warnings and verification all sit around the core act of ordering. When these steps are poorly timed, an otherwise clear menu and cart become a fragmented experience."
+      },
+      {
+        "heading": "What I worked on",
+        "body": "I evaluated the UAE ordering flow on my own device, captured screenshots and mapped observed issues to usability heuristics and interaction principles. The deliverables include a presentation and walkthrough video."
+      },
+      {
+        "heading": "An observed journey, not an experiment",
+        "body": "The review documents five heuristic findings and three UX-law observations. It is a snapshot of the tested app experience, not an assertion that every user or current app version sees the same flow."
+      },
+      {
+        "heading": "Prefer focused improvements",
+        "body": "The findings point to specific interventions: reduce the obstructive welcome promotion, separate system messages from banners, validate address entries and reveal delivery-distance constraints earlier."
+      },
+      {
+        "heading": "Let the user browse, then resolve constraints",
+        "body": "Use a dismissible promotion, make location limitations visible after pin placement and improve the size and spacing of delivery-instruction controls. The proposal also questions whether verification can happen earlier, subject to account and risk requirements."
+      },
+      {
+        "heading": "Preserve business and security needs",
+        "body": "A usability recommendation is not permission to remove verification or promotional goals altogether. Product, risk and engineering teams would need to decide when a check is necessary and how to preserve it with less interruption."
+      },
+      {
+        "heading": "Validate the revised tasks",
+        "body": "A follow-up test would compare task completion, address errors, mis-taps and checkout abandonment for the specific changes. The review itself reports observations and recommendations, not conversion uplift."
+      },
+      {
+        "heading": "Consistency matters across the whole journey",
+        "body": "The menu and cart already establish a clear standard. The opportunity is to bring surrounding steps up to that standard with focused fixes."
+      }
+    ],
+    "resources": [
+      {
+        "primary": false,
+        "label": "Talabat UAE Ordering Flow UX Review.mp4",
+        "type": "Video",
+        "url": "https://drive.google.com/file/d/1GiEjLFJ0OUaBkw190bjTXLn4C473ZDn6/view?usp=drivesdk"
+      },
+      {
+        "primary": false,
+        "label": "Talabat_UX_Evaluation_Final.pptx",
+        "type": "Slides",
+        "url": "https://docs.google.com/presentation/d/1XtIv8g7GidnEp19lP1qNKgAvswP6CuYp/edit?usp=drivesdk&ouid=109119666522270312824&rtpof=true&sd=true"
+      },
+      {
+        "primary": true,
+        "label": "Talabat_UX_Evaluation_Final.pdf",
+        "type": "PDF",
+        "url": "https://drive.google.com/file/d/1trtwRQrAoitckrb2ckYLCRYjvH0S-1Z5/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "name": "Nykaa",
+    "slug": "nykaa-ux",
+    "category": "Research & UX",
+    "status": "Independent UX case study",
+    "title": "Confidence is part of the shopping experience.",
+    "summary": "A teardown of shopping and gifting journeys, supported by two user conversations.",
+    "role": "Journey exploration, user conversations and synthesis",
+    "question": "What uncertainty is a shopper trying to remove before buying?",
+    "decision": "Treat confidence, delivery expectations and trust as part of the journey.",
+    "sections": [
+      {
+        "heading": "A product listing doesn’t answer every question",
+        "body": "Shoppers need to know whether a product suits them, whether a gift will feel appropriate, and when an order will arrive. Information can be present but hard to find at the decision point."
+      },
+      {
+        "heading": "What I worked on",
+        "body": "I explored six goal-directed shopping and gifting journeys, evaluated features and spoke with two users. I compared my own observations with the concerns raised in those conversations."
+      },
+      {
+        "heading": "The conversations widened the lens",
+        "body": "My initial exploration emphasised filters, product details and return terms. The conversations also surfaced repetitive promotions, permission concerns and pre-purchase confidence. Two conversations are useful discovery input, not representative validation."
+      },
+      {
+        "heading": "Make the uncertainty explicit",
+        "body": "The recommendations focus on clearer product-fit information, more consistent gifting support and accurate delivery expectations. The goal is to help a shopper decide with fewer surprises."
+      },
+      {
+        "heading": "Carry context through the journey",
+        "body": "One direction is to preserve the useful context from a skin-profile quiz when the user returns to ordinary browsing. Other opportunities include clearer return conditions and better visibility into delivery availability at the relevant moment."
+      },
+      {
+        "heading": "Separate direct observation from reconstruction",
+        "body": "I could not complete a real return to inspect the entire support flow. That part of the analysis draws on published policy and public reviews and would need first-hand verification."
+      },
+      {
+        "heading": "Test confidence and task completion",
+        "body": "Proposed follow-up research should examine whether shoppers find fit, delivery and returns information more easily and whether they understand it correctly. No shipped improvement or commercial result is claimed."
+      },
+      {
+        "heading": "My own use case was too narrow",
+        "body": "The user conversations exposed friction I had learned to ignore. That changed what deserved attention and reinforced the need to investigate beyond the researcher’s own shopping task."
+      }
+    ],
+    "resources": [
+      {
+        "primary": false,
+        "label": "Nika UX Teardown, Friction Points and Fixes.mp4",
+        "type": "Video",
+        "url": "https://drive.google.com/file/d/1In4NWko5Vpp3w1BgJNWfDLmaTQvZJ978/view?usp=drivesdk"
+      },
+      {
+        "primary": false,
+        "label": "Nykaa-UX-Teardown.pdf",
+        "type": "PDF",
+        "url": "https://drive.google.com/file/d/1F7Mo2m1esXVgJVIo6skprQWPOVdcMAIk/view?usp=drivesdk"
+      },
+      {
+        "primary": true,
+        "label": "Nykaa_UX_Teardown Final Submission.pdf",
+        "type": "PDF",
+        "url": "https://drive.google.com/file/d/1hNgiqqNk7PQ6mZ4DmOOxligVbgvGwyUN/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "name": "X / Twitter",
+    "slug": "x-growth",
+    "category": "Growth & Retention",
+    "status": "Independent growth case study",
+    "title": "Give a new user a reason to return.",
+    "summary": "An AARRR analysis of onboarding, first engagement and the return visit.",
+    "role": "Journey research, funnel mapping and RICE prioritization",
+    "question": "What value survives from the first visit to the next?",
+    "decision": "Fix return friction while improving the relevance of the feed.",
+    "sections": [
+      {
+        "heading": "Acquisition is only the first step",
+        "body": "A sign-up can look successful even if the first feed feels irrelevant or the next visit is difficult. The analysis follows the early journey beyond registration into activation and retention."
+      },
+      {
+        "heading": "What I worked on",
+        "body": "I mapped the experience through AARRR, used first-hand journey recordings and secondary research, identified gaps and compared four growth epics using RICE."
+      },
+      {
+        "heading": "Observed sessions with a limited scope",
+        "body": "The work covers discovery, sign-up and onboarding on day one, then return, engagement and monetisation exposure on day two. It is a bounded research exercise rather than access to X’s internal funnel data."
+      },
+      {
+        "heading": "Sequence the contained fixes",
+        "body": "The proposed order starts with One Tap Back In and Confident First Reply, while Feed That Listens begins as a heavier parallel workstream. Clear-Price Premium follows later."
+      },
+      {
+        "heading": "Connect identity, relevance and participation",
+        "body": "The proposals address returning to the service, taking the first social action, reflecting selected interests in the feed and making subscription pricing clearer. Each epic maps back to a specific observed stage."
+      },
+      {
+        "heading": "Ease of return is not enough by itself",
+        "body": "Reducing sign-in friction can help someone come back, but an irrelevant feed can still make the return unhelpful. The sequence balances near-term changes with a deeper relevance problem."
+      },
+      {
+        "heading": "Measure the behaviour each epic is meant to change",
+        "body": "A real rollout would evaluate return success, first participation and relevance alongside retention. RICE inputs are planning judgements, not proof of outcome."
+      },
+      {
+        "heading": "Read the funnel as one experience",
+        "body": "The first session sets an expectation. The return visit reveals whether the product kept it. Improving one stage in isolation can miss that relationship."
+      }
+    ],
+    "resources": [
+      {
+        "primary": true,
+        "label": "X_Growth_Opportunity_Analysis.pdf",
+        "type": "PDF",
+        "url": "https://drive.google.com/file/d/13BgWFI7bykIgKt7RnZdKC0LxYUwAOzp9/view?usp=drivesdk"
+      },
+      {
+        "primary": false,
+        "label": "twitter-x-aarrr-growth-analysis.md.pdf",
+        "type": "PDF",
+        "url": "https://drive.google.com/file/d/1V-DBq4o9KDk4rrptJ-DY95oL0VCiQf8W/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "name": "VitaFit",
+    "slug": "vitafit",
+    "category": "Growth & Retention",
+    "status": "Course retention case study",
+    "title": "Make progress visible. Make the habit less lonely.",
+    "summary": "A proposal combining rewards and community challenges to strengthen a fitness habit.",
+    "role": "Retention problem framing, feature requirements and experiment plan",
+    "question": "What brings a person back between workout sessions?",
+    "decision": "Connect personal progress with peer accountability.",
+    "sections": [
+      {
+        "heading": "The session ends, and the motivation fades",
+        "body": "The case frames a fitness product where effort is hard to see and the on-demand experience feels solitary. The proposed gap is between attending a class and building a repeatable habit."
+      },
+      {
+        "heading": "What I worked on",
+        "body": "I defined the Loop Initiative in a PRD, connecting Gamification & Rewards with Community Challenges, then outlined audiences, requirements, metrics, experimentation and release phases."
+      },
+      {
+        "heading": "A case-study baseline",
+        "body": "The source uses a roughly 32% day-30 retention baseline and additional behavioural signals. These are case-study inputs; the portfolio does not claim access to a live production dataset or independently verified business performance."
+      },
+      {
+        "heading": "Make the two features reinforce each other",
+        "body": "Rewards give effort a persistent record. Challenges add peer accountability. Completing a challenge can contribute to progress and recognition, connecting individual and group motivation."
+      },
+      {
+        "heading": "A phased retention loop",
+        "body": "Begin with points, streaks and curated challenges, then consider badges, redemption and broader community creation. The proposed challenges span 7, 14 and 30 days."
+      },
+      {
+        "heading": "Avoid rewarding empty activity",
+        "body": "Points and reminders can create pressure or shallow participation. The design needs to protect genuine exercise value and watch whether notification fatigue or reward chasing crowds out the original motivation."
+      },
+      {
+        "heading": "A hypothesis, not a result",
+        "body": "The PRD proposes lifting day-30 retention by 15 percentage points, from about 32% to 47% or above. This is a target for an A/B rollout, paired with participation, streak survival and notification guardrails—not an achieved improvement."
+      },
+      {
+        "heading": "Test lasting behaviour",
+        "body": "The next question is whether the combined features create a durable routine after the novelty wears off. Completion of a challenge alone does not establish long-term retention."
+      }
+    ],
+    "resources": [
+      {
+        "primary": false,
+        "label": "VitaFit Retention Strategy, Loop Initiative.mp4",
+        "type": "Video",
+        "url": "https://drive.google.com/file/d/1n5APLzpNdsTdzjY96s0Roa0ehE9576xV/view?usp=drivesdk"
+      },
+      {
+        "primary": true,
+        "label": "VitaFit_PRD.pdf",
+        "type": "PDF",
+        "url": "https://drive.google.com/file/d/1frIUl4DYkMSgaOvqGHVlbNnRn8zqYEBM/view?usp=drivesdk"
+      },
+      {
+        "primary": false,
+        "label": "VitaFit_Combined_Deck.pdf",
+        "type": "PDF",
+        "url": "https://drive.google.com/file/d/1cD66ORedfxJnMInoqFoX2XEK1lYwPjcZ/view?usp=drivesdk"
+      },
+      {
+        "primary": false,
+        "label": "VitaFit_Combined_Deck.pptx",
+        "type": "Slides",
+        "url": "https://docs.google.com/presentation/d/1-Ntg7JOpuZXvYuOGHwCqlSa0_6aURa3y/edit?usp=drivesdk&ouid=109119666522270312824&rtpof=true&sd=true"
+      }
+    ]
+  },
+  {
+    "name": "GEDT",
+    "slug": "gedt-expansion",
+    "category": "Product Strategy",
+    "status": "Collaborative business capstone",
+    "title": "Choose an expansion model that fits the market.",
+    "summary": "A team proposal examining how GEDT’s entrepreneurship programmes could scale into comparable economies.",
+    "role": "Contributor to the six-person capstone team",
+    "question": "Which operating model fits the conditions of each market?",
+    "decision": "Compare expansion structures before treating scale as a rollout plan.",
+    "sections": [
+      {
+        "heading": "A successful model needs a local fit",
+        "body": "The project explores how GEDT’s innovation and entrepreneurship programmes could extend beyond Guyana. Replication needs to account for different institutions, capabilities and technology readiness."
+      },
+      {
+        "heading": "A team-authored proposal",
+        "body": "I contributed as part of a six-person team. The final submission credits Amala, Amarprit Kaur, Aniket, Didi, Gaurav and Tianyu. Research findings and proposed models on this page are presented as team outputs."
+      },
+      {
+        "heading": "A structured comparison",
+        "body": "The proposal screens 23 developing economies and compares four scaling models. It uses market characteristics and technology readiness to organise the options rather than assuming every destination needs the same model."
+      },
+      {
+        "heading": "Choose the architecture of expansion",
+        "body": "The team considered joint ventures, an incubator network, hub-and-spoke structures and franchising. Each creates a different balance between local partnership, reach, control and operating complexity."
+      },
+      {
+        "heading": "Match the model to the context",
+        "body": "The deliverable is a business-scaling proposal with research, model descriptions and references. It provides a foundation for deciding which partnerships and operating arrangements to investigate further."
+      },
+      {
+        "heading": "Reach comes with coordination costs",
+        "body": "A partner-led structure may improve local fit but reduce direct control. A more central structure may preserve consistency while limiting flexibility. Those costs belong in the decision rather than being hidden in a growth forecast."
+      },
+      {
+        "heading": "A proposal, not a completed expansion",
+        "body": "The document records research and recommendations. This page does not present proposed country entry, revenue or job creation as implemented outcomes."
+      },
+      {
+        "heading": "Validate the partner, not just the market",
+        "body": "The next phase would need local partner diligence and operating feasibility checks. An attractive macroeconomic profile does not, by itself, establish an executable expansion opportunity."
+      }
+    ],
+    "resources": [
+      {
+        "primary": true,
+        "label": "GEDT_Business_Scaling_Proposal.pdf",
+        "type": "PDF",
+        "url": "https://drive.google.com/file/d/1S08CiZUwvY9UwhHtMJiq64kxZr9W_3CZ/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "name": "WhatsApp Community Directory",
+    "slug": "whatsapp-directory",
+    "category": "Product Strategy",
+    "status": "Independent research-led concept",
+    "title": "Find the recommendation. Skip the endless scroll.",
+    "summary": "Exploring a community directory that helps residents retrieve local service contacts and understand who recommended them.",
+    "role": "Market research, user research synthesis and product concept development",
+    "question": "Why do useful local recommendations disappear inside community chats?",
+    "decision": "Make trusted recommendations easier to retrieve before expanding into bookings or payments.",
+    "sections": [
+      {
+        "heading": "Useful recommendations get lost",
+        "body": "Residents ask for plumbers, tutors and other local services in community groups. Valuable contacts disappear into chronological chat history, creating repeated questions and delays when the same information is needed again."
+      },
+      {
+        "heading": "From discovery to a focused concept",
+        "body": "The project combines market and competitor research, a user-interview synthesis and survey material to explore a community directory within a WhatsApp-style experience. This is an independent portfolio concept, not a WhatsApp or Meta release."
+      },
+      {
+        "heading": "Retrieval and trust are different problems",
+        "body": "The survey records 10 responses, with nine answering the key retrieval and interface questions. Six of nine found searching old chats difficult. A pinned message received three votes; a directory tab, categorised templates and a bot received two each. This small convenience sample supports testing the retrieval problem, not declaring a winning interface. The interview synthesis adds context about repeated requests and trust in known neighbours."
+      },
+      {
+        "heading": "Start with a searchable directory",
+        "body": "The proposed core is a lightweight, categorised collection of willingly shared service contacts with recommendation context. Residents should be able to understand who recommended a provider without mistaking social endorsement for a safety guarantee."
+      },
+      {
+        "heading": "Design for residents, contributors and admins",
+        "body": "A resident finds a relevant contact; a neighbour contributes a recommendation; an administrator helps correct outdated information. The experience should retain useful context while reducing repeated requests in the main group."
+      },
+      {
+        "heading": "Trust must remain explicit",
+        "body": "Consent, stale contact details and misleading verification labels are important design risks. The research also explores payments and gate verification, but those ideas add operational complexity and require further validation rather than being treated as delivered capabilities."
+      },
+      {
+        "heading": "Measure retrieval, not directory size",
+        "body": "A proposed test would compare time to find a suitable contact, successful retrieval and repeat questions against the current chat workflow. No production adoption, conversion improvement or measured time saving is claimed."
+      },
+      {
+        "heading": "Validate the format before extending scope",
+        "body": "Test a directory against a well-structured pinned message. Observe whether residents can retrieve contacts, interpret endorsement accurately and update stale entries. Confirm the research sample and validate broader market claims before using them for investment decisions."
+      }
+    ],
+    "resources": [
+      {
+        "primary": true,
+        "label": "Whatsapp User Interview.pdf",
+        "type": "PDF",
+        "url": "https://drive.google.com/file/d/1K4SIn8MtC-0xESWvTPbTWvwQRArKOPie/view?usp=drivesdk"
+      },
+      {
+        "primary": true,
+        "label": "Whatsapp User Survey .pdf",
+        "type": "PDF",
+        "url": "https://drive.google.com/file/d/1F0_FDTuLJN215hbuTct4o2UIqE98kOWB/view?usp=drivesdk"
+      },
+      {
+        "primary": true,
+        "label": "Whatsapp Market Research .pdf",
+        "type": "PDF",
+        "url": "https://drive.google.com/file/d/1amd9gwpyglvLdTVvIWaYJom0u5O_6_ob/view?usp=drivesdk"
+      }
+    ]
+  }
+]

@@ -1,0 +1,5 @@
+import { createFileRoute } from '@tanstack/react-router';
+import { Library } from '@/components/portfolio/library';
+import { seo, JsonLd, publicUrl, projects } from '@/lib/portfolio';
+export const Route=createFileRoute('/projects/')({head:()=>seo('Project Library — Gaurav Sen',`${projects.length} product projects across AI, product strategy, growth and user experience. Explore Gaurav Sen’s complete work.`,'/projects/'),component:Projects});
+function Projects(){return <main id="main"><JsonLd value={{'@context':'https://schema.org','@type':'BreadcrumbList',itemListElement:[{'@type':'ListItem',position:1,name:'Home',item:`${publicUrl}/`},{'@type':'ListItem',position:2,name:'Projects',item:`${publicUrl}/projects/`}]}}/><section className="library-hero"><div className="container"><span className="eyebrow">{projects.length} PROJECTS · 4 DISCIPLINES</span><h1>Curiosity.<br/><em>Put to work.</em></h1><p>Research, strategy and prototypes. Each project starts with a question—and makes the decisions behind the answer visible.</p></div></section><section className="section container"><Library/></section></main>}
