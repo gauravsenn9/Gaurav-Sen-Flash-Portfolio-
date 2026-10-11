@@ -1,0 +1,96 @@
+[
+  {
+    "path": "/",
+    "status": 200,
+    "bytes": 62593
+  },
+  {
+    "path": "/projects/",
+    "status": 200,
+    "bytes": 26010
+  },
+  {
+    "path": "/projects/fireflies-commitloop/",
+    "status": 200,
+    "bytes": 32566
+  },
+  {
+    "path": "/projects/workradar/",
+    "status": 200,
+    "bytes": 28136
+  },
+  {
+    "path": "/projects/sahi/",
+    "status": 200,
+    "bytes": 33398
+  },
+  {
+    "path": "/projects/zepto-aov/",
+    "status": 200,
+    "bytes": 25012
+  },
+  {
+    "path": "/projects/uber-pickups/",
+    "status": 200,
+    "bytes": 24567
+  },
+  {
+    "path": "/projects/loop-work/",
+    "status": 200,
+    "bytes": 24771
+  },
+  {
+    "path": "/projects/competitor-news-digest/",
+    "status": 200,
+    "bytes": 25407
+  },
+  {
+    "path": "/projects/personalized-learning/",
+    "status": 200,
+    "bytes": 24261
+  },
+  {
+    "path": "/projects/zomato-retention/",
+    "status": 200,
+    "bytes": 24523
+  },
+  {
+    "path": "/projects/talabat-ux/",
+    "status": 200,
+    "bytes": 23815
+  },
+  {
+    "path": "/projects/nykaa-ux/",
+    "status": 200,
+    "bytes": 23752
+  },
+  {
+    "path": "/projects/x-growth/",
+    "status": 200,
+    "bytes": 22552
+  },
+  {
+    "path": "/projects/vitafit/",
+    "status": 200,
+    "bytes": 24407
+  },
+  {
+    "path": "/projects/gedt-expansion/",
+    "status": 200,
+    "bytes": 22193
+  },
+  {
+    "path": "/projects/whatsapp-directory/",
+    "status": 200,
+    "bytes": 25404
+  },
+  {
+    "path": "/resume/Gaurav_Sen_Cspo_Resume.pdf",
+    "status": 200,
+    "bytes": 136179
+  },
+  {
+    "path": "/projects/not-real/",
+    "status": 404
+  }
+]
